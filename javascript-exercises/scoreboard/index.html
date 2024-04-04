@@ -3,29 +3,33 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
-            <div class="home-column">
-                <h3 class="team-title">HOME</h3>
-                <div class="score" id="home-score">0</div>
-                <div class="points-buttons">
-                    <button id="home-points-add-one" onclick="hpa1()">+1</button>
-                    <button id="home-points-add-two" onclick="hpa2()">+2</button>
-                    <button id="home-points-add-three" onclick="hpa3()">+3</button>
+
+        <div class="app-container">
+            <div class="container">
+                <div class="home-column">
+                    <h3 class="team-title">HOME</h3>
+                    <div class="score" id="home-score">0</div>
+                    <div class="points-buttons">
+                        <button id="home-points-add-one" onclick="hpa1()">+1</button>
+                        <button id="home-points-add-two" onclick="hpa2()">+2</button>
+                        <button id="home-points-add-three" onclick="hpa3()">+3</button>
+                    </div>
+                </div>
+                <div class="guest-column">
+                    <h3 class="team-title">GUEST</h3>
+                    <div class="score" id="guest-score">0</div>
+                    <div class="points-buttons">
+                        <button id="guest-points-add-one" onclick="gpa1()">+1</button>
+                        <button id="guest-points-add-two" onclick="gpa2()">+2</button>
+                        <button id="guest-points-add-three" onclick="gpa3()">+3</button>
+                    </div>
                 </div>
             </div>
-            <div class="guest-column">
-                <h3 class="team-title">GUEST</h3>
-                <div class="score" id="guest-score">0</div>
-                <div class="points-buttons">
-                    <button id="guest-points-add-one" onclick="gpa1()">+1</button>
-                    <button id="guest-points-add-two" onclick="gpa2()">+2</button>
-                    <button id="guest-points-add-three" onclick="gpa3()">+3</button>
-                </div>
+            <div class="container">
+                <button class="reset-button" onclick="resetGame()">Reset Game</button>
             </div>
+            <script src="index.js"></script>
         </div>
-        <div class="container">
-            <button class="reset-button" onclick="resetGame()">Reset Game</button>
-        </div>
-        <script src="index.js"></script>
+        
     </body>
 </html>
