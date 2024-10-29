@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background: #1F2937;
+    color: white;
+    padding: 2rem;
+}
+
+button {
+    background: #10B981;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    margin: 1em 0;
+    
+}
+
+.primary-text {
+    color: #4ADF86;
+}
+.passwords-container {
+    display: flex;
+    justify-content: space-between
+}
+.password-div {
+    background-color: #273549;
+    padding: .5rem 1rem;
+    width: 40%;
+    text-align: center;
+}
