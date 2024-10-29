@@ -1,4 +1,5 @@
 import React from "react"
+import { createRoot } from 'react-dom/client';
 
 const navbar = (
     <nav>
@@ -10,3 +11,8 @@ const navbar = (
         </ul>
     </nav>
 )
+
+
+const container = document.getElementById("root")
+const root = createRoot(container)
+root.render(navbar)
