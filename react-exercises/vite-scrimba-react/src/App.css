@@ -1,59 +1,21 @@
-#root {
-  margin: 2em auto;
-  text-align: center;
-}
 
+/* 
 .app-div {
   background-color: #1A1B21;
   border-radius: 10px;
   max-width: 320px;
-}
+} */
 
 
-/* HEADER */
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 10px 10px 0 0;
-}
 
-.header-img {
-  border-radius: 10px 10px 0 0;
-}
 
-.header-content {
-  padding: 0 34px;
-}
 
-.buttons-div {
-  display: flex;
-  justify-content: space-evenly;
-}
 
-.buttons-div button{
-  width: 40%;
-}
 
-/* MAIN */
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 34px;
-}
 
-/* FOOTER */
-footer {
-  background-color: #161619;
-  border-radius: 0 0 10px 10px;
-  padding: 16px 50px;
-}
 
-footer nav {
-  display: flex;
-  justify-content: space-evenly;
-}
+
+
 
 
 /* .logo {

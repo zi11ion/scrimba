@@ -6,9 +6,9 @@ function Header() {
         <header>
             <img class="header-img" src={jasonImg} alt="photo of Jason Poage"/>
             <div class="header-content">
-                <h1>Jason Poage</h1>
-                <h3>Frontend Developer</h3>
-                <h5>jasonpoage.website</h5>
+                <h1 class="poppins-semibold">Jason Poage</h1>
+                <h2>Frontend Developer</h2>
+                <a class="link-site" href="" target="_blank">jpoage.website</a>
                 <nav className="buttons-div">
                     <button id="email-button">Email</button>
                     <button id="linkedin-button">LinkedIn</button>
